@@ -1,0 +1,351 @@
+
+
+/* ABOUT SECTION STYLES*/
+#about {
+	width: 100%;
+	height: 650px;
+	background-image: url(../images/starry_sky.jpg);
+	position: relative;
+	top: 680px;
+}
+#wrapper_title_about{
+	width: 150px;
+	margin: auto;
+	border-bottom: solid 1px rgb(0, 144, 255);
+}
+.title_about{
+	text-align: center;
+	color: white;
+	font-size: 36pt;
+	font-weight: 300;
+	padding-bottom: 20px;
+	padding-top: 25px;
+}
+#wrapper_body_about{
+	width: 1050px;
+	margin:auto;
+	padding-top: 45px;	
+}
+#wrapper_about_left{
+	width: 475px;
+}
+#wrapper_about_right{
+	width: 475px;
+	float: right;
+	padding-left: 55px;
+	border-left: solid 4px rgb(0, 144, 255);
+}
+.body_about{
+	font-size: 20pt;
+	font-weight: 300;
+	color: white;
+	line-height: 190%;
+	float: left;	
+}
+.bacon {
+	position: relative;
+	top: 5px;
+}
+.planet{
+	float: right;
+	margin-right: -10%;
+	-ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+
+/* WORK SECTION STYLES*/
+#work {
+	width: 100%;
+	height: 700px;
+	transform: skewY(-4deg);
+	position: relative;
+	top: 650px;
+}
+.wrapper_title_work{
+	width: 140px;
+	position: absolute;
+	padding-top: 40px;
+	margin-left: 45%;
+	transform: skewY(0deg);
+}
+.title_work{
+	text-align: center;
+	color: rgb(0, 144, 255);
+	font-size: 38pt;
+	font-weight: 300;
+	letter-spacing: 3px;
+	border-bottom: solid 3px black;
+	padding-bottom: 20px;
+	transform: skewY(4deg);
+}
+.skull{
+	width: 500px;
+	height: 400px;
+	margin-left: 32%;
+	margin-top: 8%;
+	position: absolute;
+	background-image: url(../images/blueskull_mushroom_solid_white.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	transform: skewY(4deg);
+}
+#work_background{
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/leaves1_1440x700.jpg);
+}
+#tree{
+	background-image: url(../images/tree_692x569_2.png);
+	background-repeat: no-repeat;
+	background-size: 90%;
+	opacity: .3;
+	position: absolute;
+	top: 0px;
+	left: -20px;
+	height: 600px;
+	width: 74%;
+}
+
+/* CONTACT SECTION STYLES*/
+#contact {
+	width: 100%;
+	height: 620px;
+	background-color: rgb(0,144,255);
+	position: relative;
+	top: 500px;
+	transform: skewY(4deg);
+
+}
+#wrapper_title_contact{
+	width: 150px;
+	margin-left: 44%;
+	/*position: relative;
+	top: 50px;*/
+	border-bottom: solid 1px white;
+	transform: skewY(-4deg);
+	padding-top: 30px;
+}
+.title_contact{
+	text-align: center;
+	color: black;
+	font-size: 36pt;
+	font-weight: 300;
+	padding-bottom: 20px;
+	padding-top: 25px;
+}
+
+/* START FORM */
+
+#wrapper_body_contact {
+    width: 90%;
+    margin: 0px 5%;
+    padding: 65px 0px;
+    transform: skewY(-4deg);
+}
+
+#contact_info{
+	position: absolute;
+	left: 5%;
+	width: 25%;
+	height: 400px;
+	margin-right: 5%;
+	display: inline-block;
+	background-color: black;
+	/*clear: both;*/
+}
+
+#info_title {
+    color: white;
+    font-size: 25pt;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-align: center;
+    /* margin-top: 20px; */
+    padding: 15px;
+    border-bottom: 2px solid rgb(0,144,255);
+}
+
+.icon_wrapper,
+#icon_wrapper {
+	position: absolute;
+    border: white solid 1px;
+    /*padding: 5px;*/
+    width: 100%;
+}
+
+.icon_wrapper {
+	top: 20%;
+}
+
+#icon_email {
+	top: 11vw;
+}
+
+.icon_flex {
+	background-color: grey;
+	height: 40px;
+	width: 40px;
+	background-size: contain;
+	display: inline-block;
+	float: left;
+	margin-left: 5%;
+}
+
+p, .info_desctiption {
+    color: white;
+    font-size: 12pt;
+    font-weight: 100;
+    letter-spacing: 1px;
+    display: inline-block;
+    /*text-align: right;*/
+    float: left;
+    margin: 11px 13% 11px 5%;
+    border: .5px solid white;
+}
+
+/*h1, .contact_subheader {
+    width: 100%;
+    margin: 0px;
+    float: right;
+    clear: right;
+    color: white;
+    font-size: 25pt;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}*/
+
+#contact_form {
+	position: absolute;
+	right: 5%;
+    width: 60%;
+    height: auto;
+    display: inline-block;
+    /* background-color: grey; */
+}
+
+.form_column {
+    width: 44%;
+    height: auto;
+    margin-right: 2%;
+    padding: 10px;
+    /* border: black solid 1px; */
+    float: left;
+}
+
+input {
+    width: 100%;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    background-color: rgb(0,144,255);
+    /* padding: 10px 3px; */
+    height: 45px;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+textarea, #comment{
+	width: 100%;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    background-color: rgb(0,144,255);
+    /* padding: 10px 3px; */
+    height: 200px;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+input [type=submit], .hvr-grow, #submit{
+	height: 50px;
+	background-color: black;
+	border-color: black;
+	width: 100%;
+	cursor: pointer;
+}
+
+#wrapper_contact_left{
+	width: 425px;
+	float: left;
+	transform: skewY(4deg);
+}
+#wrapper_contact_right{
+	width: 520px;
+	float: right;
+	padding-left: 65px;
+	transform: skewY(4deg);
+}
+.body_contact_left{
+	font-size: 20pt;
+	font-weight: 300;
+	color: white;
+	line-height: 190%;
+	transform: skewY(-4deg);
+}
+.body_contact_right{
+	font-size: 20pt;
+	font-weight: 300;
+	color: white;
+	line-height: 190%;
+	transform: skewY(-4deg);
+	border-left: solid 4px black;
+	padding-left: 95px;
+}
+#mario{
+	width: 901px;
+	height: 601px;
+	border: solid black 1px;
+	background-image: url(../images/mario_900x600.png);
+	background-clip: border-box;
+	mix-blend-mode: screen;
+	background-size: contain;
+	position: absolute;
+	left: 520px;
+	opacity: .2;
+}
+#wrapper_icons{
+	height: 130px;
+	width: 1100px;
+	margin-left: 33%;
+	position: relative;
+	top: 30px;
+	transform: skewY(-4deg);
+}
+#gmail{
+	height: 130px;
+	width: 130px;
+	background-image: url(../images/gmail2_icon130x130.png);
+	background-size: 55%;
+	background-repeat: no-repeat;
+	margin: 0% 2%;
+	float: left;
+}
+#linkedin{
+	height: 130px;
+	width: 130px;
+	background-image: url(../images/linkedin_icon130x130.png);
+	background-size: 55%;
+	background-repeat: no-repeat;
+	margin: 0% 2%;
+	float: left;
+}
+#resume_icon{
+	height: 130px;
+	width: 130px;
+	background-image: url(../images/resume_icon130x130.png);
+	background-size: 55%;
+	background-repeat: no-repeat;
+	margin: 0% 2%;
+	float: left;
+}
+footer { 
+	margin: auto;
+	width: 100%;
+	height: 100px;
+	position: relative;
+	top: 460px;
+	background-image: url(../images/starry_sky.jpg);
+	box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.5);
+	z-index: 2;
+}

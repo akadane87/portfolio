@@ -1,0 +1,42 @@
+
+/* MAIN STYLES */
+body {
+	font-family: 'Oswald', sans-serif;
+}
+.main{
+	background-image: url(../images/starry_sky_invert.jpg);
+	position: fixed;
+}
+
+/* HERO IMAGE STYLES */
+.hero{
+  height: 600px;
+  width: 100%;
+  background-image: url(../images/AK_3d_1430x600_high.jpg);
+  background-size: cover;
+  position: fixed;
+  top: 100px;
+  z-index: -1;
+}
+
+/* GROW EFFECT */
+.hvr-grow { 
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  /**** how long it takes to grow *****/
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+ /*** how large it grows ***/
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
