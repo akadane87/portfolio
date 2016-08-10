@@ -8,40 +8,40 @@
 	top: 680px;
 }
 
-.project_wrapper{
-
-    margin: auto;
-    height: 378px;
-    width: 320px;
-    
+.project_wrapper {
+    margin: 30% auto;
+    height: auto;
+    width: 60%;
 }
 
-#blue_slash{
-	position: static;
-	margin: auto;
-	color: rgb(0, 144, 255);
-	font-size: 600px;
-	text-align: center;
-	height: 100%;
-	border: dashed white 2px;
-	-ms-transform: rotate(-18deg); /* IE 9 */
-    -webkit-transform: rotate(-18deg); /* Safari */
-    transform: rotate(-18deg);
-    /*z-index: -1;*/
-   
-}
 .thumbnail{
-	height: 250px;
-    width: 320px;
+	height: auto;
+    width: 100%;
     margin: 0 auto;
+}
+
+.thumbnail img {
+	width: 100%;
 }
 
 .thumbnail-pic1{
 	    background-image: url(../images/BussinesCard_320x372.jpg);
 }
 
-/*media query small sn {
-	.thumbnail {
-		  background-image: url(../images/BussinesCard_400x372.jpg);
-	}*/
+/*/////// MOBILE MEDIA QUERIES ///////*/
+
+@media screen and (max-width: 700px) {
+	.project_wrapper{
+		width: 80%;
+
+	}
+
+}
+
+@media screen and (max-width: 500px) {
+	.project_wrapper{
+		width: 100%;
+
+	}
+
 }
