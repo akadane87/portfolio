@@ -111,10 +111,10 @@ a:active {
 }
 
 .back_to_top {
-    font-size: 18px;
+    font-size: 20px;
     display: inline-block;
-    margin-top: 3%;
-    margin-left: 11%;
+    margin-top: 3.5%;
+    margin-left: 10%;
     /* border: 1px solid yellow; */
 }
 
