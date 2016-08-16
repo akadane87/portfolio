@@ -1,7 +1,9 @@
 
 /* MAIN STYLES */
-body {
+html, body {
 	font-family: 'Oswald', sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 .main{
 	background-image: url(../images/starry_sky_invert.jpg);
