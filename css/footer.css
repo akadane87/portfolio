@@ -48,15 +48,18 @@ footer {
 }
 
 /* FOOTER ICON STYLES */
+
 #footer_icon_wrapper {
-    margin: 0 50%;
+    margin: 2% 16%;
     border: green solid 2px;
     float: left;
+    width: 18%;
 }
 
-.icon_position{
-	border: solid 1px red;
-	padding: 3px;
+.icon_position {
+    /* border: solid 1px red; */
+    padding: 3px;
+    margin-left: 10%;
 }
 
 #footer_gmail{
@@ -65,15 +68,25 @@ footer {
 	background-image: url(../images/gmail2_icon130x130.png);
 	background-size: 85%;
 	background-repeat: no-repeat;
-
+	float: left;
 }
 
 #footer_linkedin{
-
+	height: 50px;
+	width: 50px;
+	background-image: url(../images/gmail2_icon130x130.png);
+	background-size: 85%;
+	background-repeat: no-repeat;
+	float: left
 }
 
 #footer_resume{
-
+	height: 50px;
+	width: 50px;
+	background-image: url(../images/gmail2_icon130x130.png);
+	background-size: 85%;
+	background-repeat: no-repeat;
+	float: left
 }
 
 
