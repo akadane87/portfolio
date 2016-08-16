@@ -19,7 +19,7 @@
 	font-size: 36pt;
 	font-weight: 300;
 	padding-bottom: 20px;
-	padding-top: 25px;
+	padding-top: 22px;
 }
 #wrapper_body_about{
 	width: 1050px;
@@ -339,13 +339,4 @@ input [type=submit], .hvr-grow, #submit{
 	margin: 0% 2%;
 	float: left;
 }
-footer { 
-	margin: auto;
-	width: 100%;
-	height: 100px;
-	position: relative;
-	top: 460px;
-	background-image: url(../images/starry_sky.jpg);
-	box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.5);
-	z-index: 2;
-}
+
