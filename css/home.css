@@ -135,6 +135,20 @@
 	padding-top: 25px;
 }
 
+
+#mario {
+    width: 961px;
+    height: 641px;
+    border: solid black 1px;
+    background-image: url(../images/mario_900x600.png);
+    background-clip: border-box;
+    mix-blend-mode: screen;
+    background-size: contain;
+    position: absolute;
+    left: 446px;
+    opacity: .2;
+}
+
 /*/////// START FORM /////////*/
 
 #wrapper_body_contact {
@@ -183,7 +197,7 @@
 }
 
 .icon_flex {
-	background-color: grey;
+	/*background-color: grey;*/
 	height: 40px;
 	width: 40px;
 	background-size: contain;
@@ -192,7 +206,7 @@
 	margin-left: 5%;
 }
 
-p .info_desctiption {
+.info_description {
     color: white;
     font-size: 12pt;
     font-weight: 100;
@@ -204,16 +218,12 @@ p .info_desctiption {
     border: .5px solid white;
 }
 
-/*h1, .contact_subheader {
-    width: 100%;
-    margin: 0px;
-    float: right;
-    clear: right;
-    color: white;
-    font-size: 25pt;
+.contact_subheader {
+    color: black;
+    font-size: 18pt;
     padding-left: 10px;
     margin-bottom: 10px;
-}*/
+}
 
 #contact_form {
 	position: absolute;
@@ -292,51 +302,6 @@ input [type=submit], .hvr-grow, #submit{
 	border-left: solid 4px black;
 	padding-left: 95px;
 }
-#mario{
-	width: 901px;
-	height: 601px;
-	border: solid black 1px;
-	background-image: url(../images/mario_900x600.png);
-	background-clip: border-box;
-	mix-blend-mode: screen;
-	background-size: contain;
-	position: absolute;
-	left: 520px;
-	opacity: .2;
-}
-#wrapper_icons{
-	height: 130px;
-	width: 1100px;
-	margin-left: 33%;
-	position: relative;
-	top: 30px;
-	transform: skewY(-4deg);
-}
-#gmail{
-	height: 130px;
-	width: 130px;
-	background-image: url(../images/gmail2_icon130x130.png);
-	background-size: 55%;
-	background-repeat: no-repeat;
-	margin: 0% 2%;
-	float: left;
-}
-#linkedin{
-	height: 130px;
-	width: 130px;
-	background-image: url(../images/linkedin_icon130x130.png);
-	background-size: 55%;
-	background-repeat: no-repeat;
-	margin: 0% 2%;
-	float: left;
-}
-#resume_icon{
-	height: 130px;
-	width: 130px;
-	background-image: url(../images/resume_icon130x130.png);
-	background-size: 55%;
-	background-repeat: no-repeat;
-	margin: 0% 2%;
-	float: left;
-}
+
+
 
