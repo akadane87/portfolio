@@ -208,7 +208,7 @@
     background-size: contain;
     display: inline-block;
     float: left;
-    margin-left: 12%;
+    margin-left: 9%;
 }
 
 .info_description {
@@ -217,7 +217,7 @@
     font-size: 12pt;
     font-weight: 100;
     letter-spacing: 1px;
-    margin: 11px 0 11px 34%;
+    margin: 11px 0 11px 28%;
     /* border: .5px solid white; */
 }
 
@@ -226,13 +226,13 @@
     font-size: 13pt;
 }
 
-.blue_divider {
+/*.blue_divider {
     position: absolute;
     left: 27%;
     top: 29%;
     height: 61%;
     border-left: 1px solid rgb(0,144,255);
-}
+}*/
 
 
 /*/////// START FORM /////////*/
