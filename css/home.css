@@ -212,6 +212,7 @@
 }
 
 .info_description {
+	font-family: 'Open Sans Condensed', sans-serif;
     color: white;
     font-size: 12pt;
     font-weight: 100;
@@ -277,7 +278,12 @@ input [type=submit], .hvr-grow, #submit{
 	cursor: pointer;
 }
 
-#wrapper_contact_left{
+.blue_info {
+    color: rgb(0, 144, 255);
+    font-size: 13pt;
+}
+
+/*#wrapper_contact_left{
 	width: 425px;
 	float: left;
 	transform: skewY(4deg);
@@ -305,5 +311,5 @@ input [type=submit], .hvr-grow, #submit{
 	padding-left: 95px;
 }
 
-
+*/
 
