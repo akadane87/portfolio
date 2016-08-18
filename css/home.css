@@ -149,7 +149,7 @@
     opacity: .2;
 }
 
-/*/////// START FORM /////////*/
+/*/////// START INFO BOX /////////*/
 
 #wrapper_body_contact {
     width: 90%;
@@ -192,7 +192,7 @@
 }
 
 .icon_wrapper {
-    margin-top: 4%;
+    margin-top: 3%;
     border: solid 1px;
     /* padding: 5px; */
     /* width: 100%; */
@@ -208,18 +208,34 @@
     background-size: contain;
     display: inline-block;
     float: left;
-    margin-left: 9%;
+    margin-left: 12%;
 }
 
 .info_description {
-	font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     color: white;
     font-size: 12pt;
     font-weight: 100;
     letter-spacing: 1px;
-    margin: 11px 0 11px 30%;
+    margin: 11px 0 11px 34%;
     /* border: .5px solid white; */
 }
+
+.blue_info {
+    color: rgb(0, 144, 255);
+    font-size: 13pt;
+}
+
+.blue_divider {
+    position: absolute;
+    left: 27%;
+    top: 29%;
+    height: 61%;
+    border-left: 1px solid rgb(0,144,255);
+}
+
+
+/*/////// START FORM /////////*/
 
 .contact_subheader {
     color: black;
@@ -278,10 +294,7 @@ input [type=submit], .hvr-grow, #submit{
 	cursor: pointer;
 }
 
-.blue_info {
-    color: rgb(0, 144, 255);
-    font-size: 13pt;
-}
+
 
 /*#wrapper_contact_left{
 	width: 425px;
