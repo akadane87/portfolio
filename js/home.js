@@ -12,7 +12,7 @@ $(document).ready(function() {
 	// download resume
   $('a#resume').attr({
     target: '_blank', 
-    href  : 'AKadane_2CurrentResume2014.docx'
+    href  : 'Resume2016_AdamKadane.pdf'
   });
 
 });
