@@ -19,7 +19,7 @@
 	font-size: 36pt;
 	font-weight: 300;
 	padding-bottom: 20px;
-	padding-top: 25px;
+	padding-top: 22px;
 }
 #wrapper_body_about{
 	width: 1050px;
@@ -110,7 +110,7 @@
 /* CONTACT SECTION STYLES*/
 #contact {
 	width: 100%;
-	height: 620px;
+	height: 710px;
 	background-color: rgb(0,144,255);
 	position: relative;
 	top: 500px;
@@ -135,7 +135,21 @@
 	padding-top: 25px;
 }
 
-/* START FORM */
+
+#mario {
+    width: 961px;
+    height: 641px;
+    border: solid black 1px;
+    background-image: url(../images/mario_900x600.png);
+    background-clip: border-box;
+    mix-blend-mode: screen;
+    background-size: contain;
+    position: absolute;
+    left: 446px;
+    opacity: .2;
+}
+
+/*/////// START INFO BOX /////////*/
 
 #wrapper_body_contact {
     width: 90%;
@@ -155,65 +169,80 @@
 	/*clear: both;*/
 }
 
-#info_title {
+
+#info_title_wrapper {
+    /* letter-spacing: 2px; */
+    /* text-align: center; */
+    /* margin-bottom: 42px; */
+    padding: 24px;
+    /* border-bottom: 2px solid rgb(0,144,255); */
+}
+
+
+#info_title_wrapper h1 {
+    margin: auto;
+    width: 34%;
     color: white;
     font-size: 25pt;
     font-weight: 300;
     letter-spacing: 2px;
     text-align: center;
-    /* margin-top: 20px; */
-    padding: 15px;
     border-bottom: 2px solid rgb(0,144,255);
-}
-
-.icon_wrapper,
-#icon_wrapper {
-	position: absolute;
-    border: white solid 1px;
-    /*padding: 5px;*/
-    width: 100%;
+    padding-bottom: 16px;
 }
 
 .icon_wrapper {
-	top: 20%;
+    margin-top: 3%;
+    border: solid 1px;
+    /* padding: 5px; */
+    /* width: 100%; */
 }
 
-#icon_email {
+/*#icon_email {
 	top: 11vw;
-}
+}*/
 
 .icon_flex {
-	background-color: grey;
-	height: 40px;
-	width: 40px;
-	background-size: contain;
-	display: inline-block;
-	float: left;
-	margin-left: 5%;
+    height: auto;
+    width: 32px;
+    background-size: contain;
+    display: inline-block;
+    float: left;
+    margin-left: 9%;
 }
 
-p .info_desctiption {
+.info_description {
+    font-family: 'Open Sans Condensed', sans-serif;
     color: white;
     font-size: 12pt;
     font-weight: 100;
     letter-spacing: 1px;
-    display: inline-block;
-    /*text-align: right;*/
-    float: left;
-    margin: 11px 13% 11px 5%;
-    border: .5px solid white;
+    margin: 11px 0 11px 28%;
+    /* border: .5px solid white; */
 }
 
-/*h1, .contact_subheader {
-    width: 100%;
-    margin: 0px;
-    float: right;
-    clear: right;
-    color: white;
-    font-size: 25pt;
+.blue_info {
+    color: rgb(0, 144, 255);
+    font-size: 13pt;
+}
+
+/*.blue_divider {
+    position: absolute;
+    left: 27%;
+    top: 29%;
+    height: 61%;
+    border-left: 1px solid rgb(0,144,255);
+}*/
+
+
+/*/////// START FORM /////////*/
+
+.contact_subheader {
+    color: black;
+    font-size: 18pt;
     padding-left: 10px;
     margin-bottom: 10px;
-}*/
+}
 
 #contact_form {
 	position: absolute;
@@ -265,7 +294,9 @@ input [type=submit], .hvr-grow, #submit{
 	cursor: pointer;
 }
 
-#wrapper_contact_left{
+
+
+/*#wrapper_contact_left{
 	width: 425px;
 	float: left;
 	transform: skewY(4deg);
@@ -292,60 +323,6 @@ input [type=submit], .hvr-grow, #submit{
 	border-left: solid 4px black;
 	padding-left: 95px;
 }
-#mario{
-	width: 901px;
-	height: 601px;
-	border: solid black 1px;
-	background-image: url(../images/mario_900x600.png);
-	background-clip: border-box;
-	mix-blend-mode: screen;
-	background-size: contain;
-	position: absolute;
-	left: 520px;
-	opacity: .2;
-}
-#wrapper_icons{
-	height: 130px;
-	width: 1100px;
-	margin-left: 33%;
-	position: relative;
-	top: 30px;
-	transform: skewY(-4deg);
-}
-#gmail{
-	height: 130px;
-	width: 130px;
-	background-image: url(../images/gmail2_icon130x130.png);
-	background-size: 55%;
-	background-repeat: no-repeat;
-	margin: 0% 2%;
-	float: left;
-}
-#linkedin{
-	height: 130px;
-	width: 130px;
-	background-image: url(../images/linkedin_icon130x130.png);
-	background-size: 55%;
-	background-repeat: no-repeat;
-	margin: 0% 2%;
-	float: left;
-}
-#resume_icon{
-	height: 130px;
-	width: 130px;
-	background-image: url(../images/resume_icon130x130.png);
-	background-size: 55%;
-	background-repeat: no-repeat;
-	margin: 0% 2%;
-	float: left;
-}
-footer { 
-	margin: auto;
-	width: 100%;
-	height: 100px;
-	position: relative;
-	top: 460px;
-	background-image: url(../images/starry_sky.jpg);
-	box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.5);
-	z-index: 2;
-}
+
+*/
+

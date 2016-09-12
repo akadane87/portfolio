@@ -9,6 +9,7 @@ LOAD RESET CSS FIRST -->
 
 <!-- LOAD FONTS -->
 <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 
 <!-- LOAD MAIN CSS -->
 <link href="css/main.css" rel="stylesheet" type="text/css">
@@ -44,12 +45,21 @@ LOAD RESET CSS FIRST -->
 		</nav>
 </div>
 
+
+				<!-- //////    START HERO   /////// -->
+
 <div class="hero"></div>
+
+
+
+
+				<!-- //////    START ABOUT   /////// -->
+
 <div id="about_target"></div>
 <div id="about" data-stellar-background-ratio="10">
 	<div id="wrapper_title_about"> <h1 class="title_about">ABOUT</h1> </div>
 	<div id="wrapper_body_about">
-		<div id="wrapper_about_left"> <p class="body_about"> Hello, My name is Adam. I'm a print and digital designer based out of Boston MA who is just starting to get into web design. Case in point this sweet website that I've created from the ground up.</p></div>
+		<div id="wrapper_about_left"> <p class="body_about"> Hello, My name is Adam. I'm a multimedia designer based out of Boston MA who is just starting to get into web design. Case in point this sweet website that I've created from the ground up.</p></div>
 		<div id="wrapper_about_right"><p class="body_about">Aside from designing and creating things I enjoy <span class="blue">blue stuff</span>, ninjas, epic shit, and bacon. Everyday I try to bridge the gap between my imagination and my computer. Thanks for checking out my site.</p>
 		</div>
 	</div>
@@ -65,27 +75,100 @@ LOAD RESET CSS FIRST -->
 	<div id="tree"></div>
 </div>
 
+               <!-- //////    START CONTACT   /////// -->
 
 <div id="contact">
 	<div id="mario">Its me Mario</div>
 	<div id="wrapper_title_contact"> <h1 class="title_contact">CONTACT</h1> </div>
+
 	<div id="wrapper_body_contact">
-		<div id="wrapper_contact_left"> <p class="body_contact_left"> I am currently taking on new projects. If you feel like I’m the man for the job, please feel free to reach out so we can diccuss things further.</p></div>
+		<div id="contact_info">
+			<div id="info_title_wrapper">
+				<h1> INFO </h1>
+			</div>
+			<div class="icon_wrapper"> 
+				<img src="images/logo_AK_white_75x75.png" class="icon_flex" alt="name">
+				<p class="info_description">Adam Kadane</p>
+			</div>
+			<div class="icon_wrapper"> 
+				<img src="images/gmail2_icon_white_130x130.png" class="icon_flex" alt="email">
+				<p class="info_description">akadane87<span class="blue_info">@</span>gmail<span class="blue_info">.</span>com </p>
+			</div>
+			<div class="icon_wrapper"> 
+				<a href="#" id="resume">
+				<img src="images/resume_icon_white_130x130.png" class="icon_flex" alt="email">
+				<p class="info_description">Resume</p>
+				</a>
+			</div>
+			<div class="icon_wrapper"> 
+				<img src="images/gmail2_icon_white_130x130.png" class="icon_flex" alt="email">
+				<p class="info_description">781<span class="blue_info">-</span>724<span class="blue_info">-</span>4343</p>
+			</div>
+			<div class="icon_wrapper"> 
+				<a href="https://www.linkedin.com/in/adamkadane">
+				<img src="images/linkedin_icon_white_130x130.png" class="icon_flex" alt="email">
+				<p class="info_description">linkedin<span class="blue_info">.</span>com/in/adamkadane</p>
+				</a>
+			</div>
+			<!-- <div class="blue_divider"></div> -->
+		</div> <!-- /////// END INFO BOX //////// -->
+
+
+			<!-- /////// START FORM //////// -->
+		<div id="contact_form">
+			<h1 class="contact_subheader"> Reach Out: </h1>
+			<div class="form_column">
+				<input type="text" name="" placeholder="your name" class="field" required="">
+				<input type="text" name="" placeholder="your email address" class="field" required="">
+				<input type="text" name="" placeholder="your phone (optional)" class="field" >
+				<input type="text" name="" placeholder="subject" class="field" required="">
+
+			</div>
+			<div class="form_column">
+				<textarea type="text" name="" placeholder="comments" id="comment"required=""></textarea>
+				<input type="submit" name="" placeholder="your name"  id="submit" required="">
+			</div>
+		</div>
+		<!-- <div id="wrapper_contact_left"> <p class="body_contact_left"> I am currently taking on new projects. If you feel like I’m the man for the job, please feel free to reach out so we can diccuss things further.</p></div>
 		<div id="wrapper_contact_right"><p class="body_contact_right">Whether you would like my services for a project, get extra information about my work, ask me about this site or just say hello then I would love to hear from you.</p>
 		</div>
 	</div>
 	<div id="wrapper_icons">
 		<a href="#"><div id="gmail"></div></a>
 		<a href="https://www.linkedin.com/in/adamkadane"><div id="linkedin"></div></a>
-		<a href="#" id="resume"><div id="resume_icon"></div></a>
+		<a href="#" id="resume"><div id="resume_icon"></div></a> -->
 	</div>
 </div>
 
 <footer>
-<div class="footer_wrapper_logo">
-	<div id="logo_footer"></div>
-		
-</div>
+	<div class="footer_wrapper_logo">
+		<div id="logo_footer"></div>
+		<div id="footer_wrapper_text">
+			<p class="footer_info">Adam Kadane</p>
+			<p class="footer_info">781<span class="blue_span">-</span>724<span class="blue_span">-</span>4343</p>
+			<p class="footer_info">akadane87<span class="blue_span">@</span>gmail<span class="blue_span">.</span>com</p>
+			<p class="footer_info">akadane87<span class="blue_span">.</span>carbonmade<span class="blue_span">.</span>com</p>
+		</div>
+	</div>
+	<div id="footer_icon_wrapper">
+		<a href="mailto:akadane87@gmail.com">
+			<div id="footer_gmail" class="icon_position"></div>
+		</a>
+		<a href="https://www.linkedin.com/in/adamkadane">
+			<div class="icon_position" id="footer_linkedin"></div>
+		</a>
+		<a href="#" id="resume">
+			<div class="icon_position" id="footer_resume"></div>
+		</a>
+	</div>
+	<p class="back_to_top">
+		<a href="#about_target"><span class="blue_span">/</span> BACK TO TOP
+		</a>
+	</p>
+
+	<!-- <a href="#box3" class="back_to_top">
+		<p><span class="blue_span">/</span> Back to Top </p>
+	</a> -->
 </footer>
 
 <!-- LOAD JQUERY FIRST -->
