@@ -115,20 +115,20 @@ LOAD RESET CSS FIRST -->
 
 
 			<!-- /////// START FORM //////// -->
-		<div id="contact_form">
+		<form id="contact_form">
 			<h1 class="contact_subheader"> Reach Out: </h1>
 			<div class="form_column">
-				<input type="text" name="" placeholder="your name" class="field" required="">
-				<input type="text" name="" placeholder="your email address" class="field" required="">
-				<input type="text" name="" placeholder="your phone (optional)" class="field" >
-				<input type="text" name="" placeholder="subject" class="field" required="">
+				<input type="text" name="Name" placeholder="your name" class="field" required="">
+				<input type="text" name="Email" placeholder="your email address" class="field" required="">
+				<input type="text" name="Phone" placeholder="your phone (optional)" class="field" >
+				<input type="text" name="Subject" placeholder="subject" class="field" required="">
 
 			</div>
 			<div class="form_column">
-				<textarea type="text" name="" placeholder="comments" id="comment"required=""></textarea>
+				<textarea type="text" name="Comments" placeholder="comments" id="comment"required=""></textarea>
 				<input type="submit" name="" placeholder="your name"  id="submit" required="">
 			</div>
-		</div>
+		</form>
 		<!-- <div id="wrapper_contact_left"> <p class="body_contact_left"> I am currently taking on new projects. If you feel like I’m the man for the job, please feel free to reach out so we can diccuss things further.</p></div>
 		<div id="wrapper_contact_right"><p class="body_contact_right">Whether you would like my services for a project, get extra information about my work, ask me about this site or just say hello then I would love to hear from you.</p>
 		</div>
@@ -189,6 +189,56 @@ LOAD RESET CSS FIRST -->
 <!-- LOAD HOME JS -->
 <script type="text/javascript" src="js/home.js"></script>
 
+<script type="text/javascript">
+
+    // jQuery snippet for changing HTML form into JSON
+    (function ($) {
+      $.fn.serializeFormJSON = function () {
+        var o = {};
+        var a = this.serializeArray();
+        $.each(a, function () {
+          if (o[this.name]) {
+            if (!o[this.name].push) { o[this.name] = [o[this.name]]; }
+            o[this.name].push(this.value || '');
+          } else { o[this.name] = this.value || ''; }
+        });
+        return o;
+      };
+    })(jQuery);
+
+    // When  the form is submitted...
+    $('#contact_form').submit(function(e) {
+      // prevent default submiting form
+      e.preventDefault();
+
+      // serialize data to JSON
+      var data = $('#contact_form').serializeFormJSON();
+
+      $.ajax({
+      	// OUR API GOES HERE
+        url: 'https://sheetsu.com/apis/v1.0/27022a0d7e30', 
+        data: data,
+        dataType: 'json',
+        type: 'POST',
+
+        // place for handling successful response
+        // showing (redirecting to) something like /thanks.html
+        // page could be a good idea
+        success: function(data) {
+          // window.location.href = 'thank_you.html';
+          alert("Form Submitted");
+        },
+
+        // handling error response
+        error: function(data) {
+        	alert("Error, please submit again.");
+          console.log(data);
+        }
+      });
+
+      return false;
+    });
+</script>
 
 </body>
 </html>
