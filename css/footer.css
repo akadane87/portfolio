@@ -3,12 +3,13 @@
 footer { 
 	margin: auto;
 	width: 100%;
-	height: 115px;
+	min-height: 115px;
 	position: relative;
 	top: 450px;
 	background-image: url(../images/starry_sky.jpg);
 	box-shadow: 0px -10px 8px rgba(0, 0, 0, 0.5);
 	z-index: 2;
+    text-align: center;
 }
 
 
@@ -18,8 +19,16 @@ footer {
 	clear: right;
 	/*border: red solid 3px;*/
 	margin-top: 10px;
+    text-align: left;
 }
 
+@media screen and (max-width: 860px) {
+    .footer_wrapper_logo{
+        width: 100%;
+
+    }
+
+}
 
 #logo_footer {
     width: 75px;
@@ -50,10 +59,25 @@ footer {
 /* FOOTER ICON STYLES */
 
 #footer_icon_wrapper {
-    margin: 2.5% 16%;
+    margin: 2.5% 0;
     /* border: green solid 2px; */
     float: left;
-    width: 23%;
+    width: 45%;
+    margin-left: 10%;
+}
+
+@media screen and (max-width: 1050px) {
+    #footer_icon_wrapper{
+        margin-left: 1%;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    #footer_icon_wrapper{
+        width: 100%;
+        margin: 25px auto;
+    }
+
 }
 
 .icon_position {
@@ -114,10 +138,17 @@ a:active {
     font-size: 20px;
     display: inline-block;
     margin-top: 3.5%;
-    margin-left: 10%;
+        padding-bottom: 35px;
     /* border: 1px solid yellow; */
 }
 
+@media screen and (max-width: 500px) {
+    .back_to_top{
+        padding-bottom: 35px;
+
+    }
+
+}
 
 .blue_span{
 	color: rgb(0, 144, 255);
