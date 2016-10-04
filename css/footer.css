@@ -142,7 +142,7 @@ a:active {
     /* border: 1px solid yellow; */
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 860px) {
     .back_to_top{
         padding-bottom: 35px;
 
