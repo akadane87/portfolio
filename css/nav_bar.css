@@ -49,11 +49,11 @@
 
 }
 
-@media screen and (max-width: 860px) {
+/*@media screen and (max-width: 860px) {
     .nav_bar nav{
         padding-bottom: 35px;
 
-    }
+    }*/
 
 .nav_bar ul {
 	list-style: none;
