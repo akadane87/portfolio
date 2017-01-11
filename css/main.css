@@ -12,13 +12,35 @@ html, body {
 
 /* HERO IMAGE STYLES */
 .hero{
-  height: 600px;
+	height: 75%;
   width: 100%;
   background-image: url(../images/AK_3d_1430x600_high.jpg);
   background-size: cover;
+	background-position: center;
   position: fixed;
-  top: 100px;
+  top: 90px;
   z-index: -1;
+}
+
+@media (max-width: 1025px) {
+.hero {
+    height: 60%;
+    top: 100px;
+	}
+}
+
+@media (max-width: 830px) {
+.hero {
+    height: 60%;
+    top: 100px;
+	}
+}
+
+@media (max-width: 630px) {
+.hero {
+    height: 55%;
+    top: 100px;
+	}
 }
 
 /* GROW EFFECT */

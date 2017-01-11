@@ -7,7 +7,7 @@ footer {
     overflow: auto;
     /* min-height: 115px; */
     position: relative;
-    top: 453px;
+    top: 440px;
     background-image: url(../images/starry_sky.jpg);
     box-shadow: 0px -10px 8px rgba(0, 0, 0, 0.5);
     z-index: 2;
