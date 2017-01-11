@@ -3,20 +3,19 @@
 <head>
 <title>Home</title>
 
-<!-- 
-LOAD RESET CSS FIRST -->
+<!-- LOAD RESET CSS FIRST -->
 <link href="css/vendor/reset.css" rel="stylesheet" type="text/css">
 
 <!-- LOAD FONTS -->
 <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
-<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet" type='text/css'>
+
+<!-- LOAD NAVBAR CSS -->
+<link href="css/nav_bar.css" rel="stylesheet" type="text/css">
 
 <!-- LOAD MAIN CSS -->
 <link href="css/main.css" rel="stylesheet" type="text/css">
 
-
-<!-- LOAD NAVBAR CSS -->
-<link href="css/nav_bar.css" rel="stylesheet" type="text/css">
 
 <!-- LOAD HOME CSS -->
 <link href="css/home.css" rel="stylesheet" type="text/css">
@@ -82,51 +81,60 @@ LOAD RESET CSS FIRST -->
 	<div id="wrapper_title_contact"> <h1 class="title_contact">CONTACT</h1> </div>
 
 	<div id="wrapper_body_contact">
+
 		<div id="contact_info">
 			<div id="info_title_wrapper">
 				<h1> INFO </h1>
 			</div>
-			<div class="icon_wrapper"> 
+		<div class="icon_body_container_left">
+			<div class="icon_wrapper">
 				<img src="images/logo_AK_white_75x75.png" class="icon_flex" alt="name">
 				<p class="info_description">Adam Kadane</p>
 			</div>
-			<div class="icon_wrapper"> 
+			<div class="icon_wrapper">
 				<img src="images/gmail2_icon_white_130x130.png" class="icon_flex" alt="email">
 				<p class="info_description">akadane87<span class="blue_info">@</span>gmail<span class="blue_info">.</span>com </p>
 			</div>
-			<div class="icon_wrapper"> 
+			<div class="icon_wrapper resume_clear_right">
 				<a href="#" id="resume">
 				<img src="images/resume_icon_white_130x130.png" class="icon_flex" alt="email">
 				<p class="info_description">Resume</p>
 				</a>
 			</div>
-			<div class="icon_wrapper"> 
+		</div>
+		<div class="icon_body_container_left">
+			<div class="icon_wrapper">
 				<img src="images/gmail2_icon_white_130x130.png" class="icon_flex" alt="email">
 				<p class="info_description">781<span class="blue_info">-</span>724<span class="blue_info">-</span>4343</p>
 			</div>
-			<div class="icon_wrapper"> 
+			<div class="icon_wrapper">
 				<a href="https://www.linkedin.com/in/adamkadane">
 				<img src="images/linkedin_icon_white_130x130.png" class="icon_flex" alt="email">
-				<p class="info_description">linkedin<span class="blue_info">.</span>com/in/adamkadane</p>
+				<p class="info_description">linkedin<span class="blue_info">.</span>com<span class="blue_info">/</span>in<span class="blue_info">/</span>adamkadane</p>
 				</a>
 			</div>
-			<!-- <div class="blue_divider"></div> -->
+			<div class="icon_wrapper">
+				<a href="https://github.com/akadane87">
+				<img src="images/linkedin_icon_white_130x130.png" class="icon_flex" alt="email">
+				<p class="info_description">github<span class="blue_info">.</span>com<span class="blue_info">/</span>akadane87</p>
+				</a>
+			</div>
+		</div>
 		</div> <!-- /////// END INFO BOX //////// -->
 
 
 			<!-- /////// START FORM //////// -->
 		<form id="contact_form">
 			<h1 class="contact_subheader"> Reach Out: </h1>
-			<div class="form_column">
+			<div class="form_column" >
 				<input type="text" name="Name" placeholder="your name" class="field" required="">
 				<input type="text" name="Email" placeholder="your email address" class="field" required="">
 				<input type="text" name="Phone" placeholder="your phone (optional)" class="field" >
 				<input type="text" name="Subject" placeholder="subject" class="field" required="">
-
 			</div>
-			<div class="form_column">
-				<textarea type="text" name="Comments" placeholder="comments" id="comment"required=""></textarea>
-				<input type="submit" name="" placeholder="your name"  id="submit" required="">
+			<div class="form_column" >
+				<textarea type="text" name="Comments" placeholder="comments" id="comment" required=""></textarea>
+				<input type="submit" name="" placeholder="your name"  id="submit" required="" class="hvr-grow">
 			</div>
 		</form>
 		<!-- <div id="wrapper_contact_left"> <p class="body_contact_left"> I am currently taking on new projects. If you feel like I’m the man for the job, please feel free to reach out so we can diccuss things further.</p></div>
@@ -138,38 +146,36 @@ LOAD RESET CSS FIRST -->
 		<a href="https://www.linkedin.com/in/adamkadane"><div id="linkedin"></div></a>
 		<a href="#" id="resume"><div id="resume_icon"></div></a> -->
 	</div>
-</div>
+</div> <!-- End Contact -->
 
-<footer>
-	<div class="footer_wrapper_logo">
-		<div id="logo_footer"></div>
-		<div id="footer_wrapper_text">
-			<p class="footer_info">Adam Kadane</p>
-			<p class="footer_info">781<span class="blue_span">-</span>724<span class="blue_span">-</span>4343</p>
-			<p class="footer_info">akadane87<span class="blue_span">@</span>gmail<span class="blue_span">.</span>com</p>
-			<p class="footer_info">akadane87<span class="blue_span">.</span>carbonmade<span class="blue_span">.</span>com</p>
+
+	<footer>
+		<div class="footer_wrapper_logo">
+			<div id="logo_footer"></div>
+			<div id="footer_wrapper_text">
+				<p class="footer_info">Adam Kadane</p>
+				<p class="footer_info">781<span class="blue_span">-</span>724<span class="blue_span">-</span>4343</p>
+				<p class="footer_info">akadane87<span class="blue_span">@</span>gmail<span class="blue_span">.</span>com</p>
+				<p class="footer_info">akadane87<span class="blue_span">.</span>carbonmade<span class="blue_span">.</span>com</p>
+			</div>
 		</div>
-	</div>
-	<div id="footer_icon_wrapper">
-		<a href="mailto:akadane87@gmail.com">
-			<div id="footer_gmail" class="icon_position"></div>
-		</a>
-		<a href="https://www.linkedin.com/in/adamkadane">
-			<div class="icon_position" id="footer_linkedin"></div>
-		</a>
-		<a href="#" id="resume">
-			<div class="icon_position" id="footer_resume"></div>
-		</a>
-	</div>
-	<p class="back_to_top">
-		<a href="#about_target"><span class="blue_span">/</span> BACK TO TOP
-		</a>
-	</p>
-
-	<!-- <a href="#box3" class="back_to_top">
-		<p><span class="blue_span">/</span> Back to Top </p>
-	</a> -->
-</footer>
+		<div id="footer_icon_body">
+			<div class="footer_icon_wrapper">
+				<a href="mailto:akadane87@gmail.com" class="icon_position hvr-grow">
+					<div id="footer_gmail"></div>
+				</a>
+				<a href="https://www.linkedin.com/in/adamkadane" class="icon_position hvr-grow">
+					<div id="footer_linkedin"></div>
+				</a>
+				<a href="#" id="resume" class="icon_position hvr-grow">
+					<div  id="footer_resume"></div>
+				</a>
+			</div>
+				<p class="back_to_top">
+					<a href="#about_target"><span class="blue_span">/</span>  BACK TO TOP  </a>
+				</p>
+		</div>
+	</footer>
 
 <!-- LOAD JQUERY FIRST -->
 <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
@@ -216,7 +222,7 @@ LOAD RESET CSS FIRST -->
 
       $.ajax({
       	// OUR API GOES HERE
-        url: 'https://sheetsu.com/apis/v1.0/27022a0d7e30', 
+        url: 'https://sheetsu.com/apis/v1.0/27022a0d7e30',
         data: data,
         dataType: 'json',
         type: 'POST',

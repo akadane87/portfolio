@@ -22,7 +22,7 @@ html, body {
 }
 
 /* GROW EFFECT */
-.hvr-grow { 
+.hvr-grow {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: translateZ(0);
